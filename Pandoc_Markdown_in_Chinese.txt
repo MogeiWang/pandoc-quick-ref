@@ -1,4 +1,5 @@
 Pandoc’s markdown
+http://pages.tzengyuxio.me/pandoc/
 
 與 John Gruber 的 原始 markdown 相比，Pandoc 版本的 markdown 在語法上有額外的擴充與些許的修正。這份文件解釋了這些語法，並指出其與原始 markdown 的差異所在。除非特別提到，不然這些差異均可藉由使用 markdown_strict 而非 markdown 的格式來關閉。單獨一項擴充也可透過 +EXTENSION 或 -EXTENSION 的方式來開啟或關閉。例如，markdown_strict+footnotes 表示加上腳註擴充的原始 markdown，而 markdown-footnotes-pipe_tables 則是拿掉了腳註與管線表格擴充的 pandoc markdown。
 
